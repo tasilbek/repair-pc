@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% load static %}
+{% block service %}
+
+<!--Start breadcrumb area-->     
+<div class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+	<div class="container text-center">
+		<h1>Our service</h1>
+			<div class="breadcrumbs_path">
+			    <a href="#">Home</a>&nbsp;&nbsp;-&nbsp;&nbsp; Service
+			</div>		
+	</div>
+</div>
+<!--End breadcrumb area-->
+
+
+<div class="our-services our-service-pg">
+    <div class="container">    
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="single-our-service">
+                    <figure class="img-box">
+                        <a href="{% url 'service' %}"><img src="{% static 'images/service/1.jpg' %}" alt="Awesome Image"></a>
+                    </figure>
+                    <a href="{% url 'service' %}"><h4>PC & MAC Computers</h4></a>
+                    <p>We develop and design new procedures, tools <br>
+                    systems for agricultural products environments. </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-our-service">
+                    <figure class="img-box">
+                        <a href="{% url 'service' %}"><img src="{% static 'images/service/2.jpg' %}" alt="Awesome Image"></a>
+                    </figure>
+                    <a href="{% url 'service' %}"><h4>Laptop Macbook Repair</h4></a>
+                    <p>Chemical Research expertise in producing and <br>
+                    manipulating chemicals to energy properties.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-our-service">
+                    <figure class="img-box">
+                        <a href="{% url 'service' %}"><img src="{% static 'images/service/3.jpg' %}" alt="Awesome Image"></a>
+                    </figure>
+                    <a href="{% url 'service' %}"><h4>Smartphone Repair</h4></a>
+                    <p>Materials Engineering should include scientific and <br>
+                    engineering strength relationships of materials. </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="single-our-service">
+                    <figure class="img-box">
+                        <a href="{% url 'service' %}"><img src="{% static 'images/service/4.jpg' %}" alt="Awesome Image"></a>
+                    </figure>
+                    <a href="{% url 'service' %}"><h4>Tablet - IPad Repair</h4></a>
+                    <p>Creating a dynamic company for the continuous <br>
+                    exploration and develop opportunities. </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-our-service">
+                    <figure class="img-box">
+                        <a href="{% url 'service' %}"><img src="{% static 'images/service/5.jpg' %}" alt="Awesome Image"></a>
+                    </figure>
+                    <a href="{% url 'service' %}"><h4>Data Recovery</h4></a>
+                    <p>Petroleum Engineers are concerned with the <br>
+                     exploration, discovery and production.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-our-service">
+                    <figure class="img-box">
+                        <a href="{% url 'service' %}"><img src="{% static 'images/service/6.jpg' %}" alt="Awesome Image"></a>
+                    </figure>
+                    <a href="{% url 'service' %}"><h4>Console Repair</h4></a>
+                    <p>Ensuring high reliability and optimal performance <br>of 
+                    rotating power equipment.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock service %}

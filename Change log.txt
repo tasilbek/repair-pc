@@ -1,0 +1,41 @@
+UPDATE – 05 Feb 2023
+
+- Add: New Service Section 
+- Add: New Home 
+- Improved: CSS
+- Improved: Mobile header design
+- Fix Responsive Issues 
+
+UPDATE – 15 May 2022
+
+- Doc Updated
+- Improved: CSS
+- Add: new Home
+
+UPDATE – 19 November 2021
+
+- Improved: CSS
+- Add: new section 
+- Fix google map section
+UPDATE – 19 April 2020
+
+- Improved: CSS
+- Add: new section 
+- Fix Responsive Issues 
+
+UPDATE – 12 January 2020
+
+- Improved: CSS
+- Add: Google Map API
+- Fix Responsive Issues 
+
+UPDATE – 09 March, 2019
+
+- Improved: CSS
+- Edited: Blog CSS
+- Initial Release
+
+VERSION 1.1 – 03 MAY 2018
+- Added: Cleaning Demo
+- Updated: Documentation
+- Fixed: Some Responsive Issue
